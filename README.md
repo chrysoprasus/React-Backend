@@ -12,7 +12,7 @@ First, make sure you have Node.js and MongoDB installed on your machine.
      ```
 2. Install Required Packages:
      ```
-     Install Required Packages: 
+     npm install express mongoose bcryptjs jsonwebtoken cors dotenv
      ```
 ---
 ### 2. Create a Basic Express Server 
