@@ -2,7 +2,7 @@
 This shows you how to set up a simple MERN react backend to get your project on the roll! 
 
 ---
-### 1.Project Structure Overview
+## 1.Project Structure Overview
      ```
     my-mern-auth-app/
      │
@@ -30,7 +30,7 @@ This shows you how to set up a simple MERN react backend to get your project on 
          │   └── index.js
          └── .env
      ```
-### 2. Setting Up the Backend
+## 2. Setting Up the Backend
 1. Backend Installation
      ```
      cd backend
