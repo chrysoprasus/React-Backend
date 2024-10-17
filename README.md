@@ -49,11 +49,29 @@ This shows you how to set up a simple MERN react backend to get your project on 
      ```
      npm run start
      ```
-3. Environment Variables with .env
-Add a section on setting up environment variables for security and flexibility.
+3. Environment Variables with .env 
      ```
      MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
      JWT_SECRET=your_jwt_secret
      PORT=5000
      ```
+4. Create `server.js`
+   Go to File and add code
+5. Create `User.js`
+   Go to File and add code
+6. Create `auth.js`
+   Go to File and add code
+7. Create `authRoutes.js`
+   Go to File and add code
+8. Create  `userRoutes.js`
+   Go to File and add code
 ---
+## 3. Frontend Setup
+1. Install Dependencies
+Run the following commands to set up React:
+     ```
+     npx create-react-app frontend
+     cd frontend
+     npm install axios react-redux redux-toolkit react-router-dom react-hot-toast
+     ```
+
