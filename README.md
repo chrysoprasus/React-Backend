@@ -1,9 +1,12 @@
 # Step-by-Step for MERN Stack Authentication
-This shows you how to set up a simple MERN react backend to get your project on the roll! 
+This shows you how to set up a simple MERN react backend to get your project on the roll!  asfsafsaf
 
 ---
 ## Things to note
 There is a lot of logging user ID and other data that probably shouldnt be logged in a finished produced! Adding more security is recommend and I am working on a production level auth so stay tuned! 
+
+Quick Start: Download from github, install dependencies for both front and backend, then add the `.env` file and your good to go!
+
 ---
 ## 1.Project Structure Overview
      
