@@ -72,6 +72,6 @@ Run the following commands to set up React:
      ```
      npx create-react-app frontend
      cd frontend
-     npm install axios react-redux redux-toolkit react-router-dom react-hot-toast
+     npm install axios react-redux @reduxjs/toolkit react-router-dom react-hot-toast jwt-decode
      ```
 
