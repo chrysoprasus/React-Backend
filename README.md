@@ -74,4 +74,5 @@ Run the following commands to set up React:
      cd frontend
      npm install axios react-redux @reduxjs/toolkit react-router-dom react-hot-toast jwt-decode
      ```
-
+## Things to note
+There is a lot of logging user ID and other data that probably shouldnt be logged in a finished produced! Adding more security is recommend and I am working on a production level auth so stay tuned! 
