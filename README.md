@@ -2,8 +2,11 @@
 This shows you how to set up a simple MERN react backend to get your project on the roll! 
 
 ---
+## Things to note
+There is a lot of logging user ID and other data that probably shouldnt be logged in a finished produced! Adding more security is recommend and I am working on a production level auth so stay tuned! 
+---
 ## 1.Project Structure Overview
-     ```
+     
     my-mern-auth-app/
      │
      ├── backend/
@@ -29,42 +32,31 @@ This shows you how to set up a simple MERN react backend to get your project on 
          │   │   └── userSlice.js
          │   └── index.js
          └── .env
-     ```
+     
 ## 2. Setting Up the Backend
 1. Backend Installation
      ```
-     cd backend
-     npm init -y
      npm install express mongoose cors dotenv bcryptjs jsonwebtoken
      npm install --save-dev nodemon  
      ```
 2. Add a start script in your package.json for running the backend with nodemon:
+   (if downloaded via github this is not needed)
      ```
      "scripts": {
-       "start": "nodemon server.js"
+       "dev": "nodemon server.js"
      }
      ```
      Now, whenever you run the backend, use:
 
      ```
-     npm run start
+     npm run dev
      ```
-3. Environment Variables with .env 
+4. Environment Variables with .env 
      ```
      MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
      JWT_SECRET=your_jwt_secret
      PORT=5000
      ```
-4. Create `server.js`
-   Go to File and add code
-5. Create `User.js`
-   Go to File and add code
-6. Create `auth.js`
-   Go to File and add code
-7. Create `authRoutes.js`
-   Go to File and add code
-8. Create  `userRoutes.js`
-   Go to File and add code
 ---
 ## 3. Frontend Setup
 1. Install Dependencies
@@ -74,5 +66,7 @@ Run the following commands to set up React:
      cd frontend
      npm install axios react-redux @reduxjs/toolkit react-router-dom react-hot-toast jwt-decode
      ```
-## Things to note
-There is a lot of logging user ID and other data that probably shouldnt be logged in a finished produced! Adding more security is recommend and I am working on a production level auth so stay tuned! 
+     You can now run the the frontend with:
+     ```
+     npm start
+     ```
